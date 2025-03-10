@@ -23,14 +23,14 @@ return {
         { section = "keys", gap = 1, padding = 1 },
         { section = "startup" },
         -- Loyage: not work by now
-        {
-          section = "terminal",
-          cmd = "ascii-image-converter ~/Pictures/touxiang.png -C -c",
-          -- random = 10,
-          pane = 2,
-          indent = 4,
-          height = 30,
-        },
+        -- {
+        --   section = "terminal",
+        --   cmd = "ascii-image-converter ~/Pictures/touxiang.png -C -c",
+        --   -- random = 10,
+        --   pane = 2,
+        --   indent = 4,
+        --   height = 30,
+        -- },
       },
     },
     explorer = { enabled = true },
