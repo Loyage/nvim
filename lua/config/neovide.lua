@@ -9,7 +9,7 @@ function M.init()
 end
 
 function M.config()
-  vim.o.guifont = "FiraCode Nerd Font Mono:h20"
+  vim.o.guifont = "FiraCode Nerd Font Mono:h24"
   vim.g.neovide_cursor_vfx_mode = "railgun"
   vim.g.neovide_no_idle = true
   -- vim.g.neovide_title_background_color =
